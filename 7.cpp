@@ -1,4 +1,4 @@
-// 7. Program for Time class with friend sum function
+//  Program for Time class with friend sum function
 #include <iostream>
 using namespace std;
 
@@ -51,4 +51,5 @@ int main() {
     cout << "Sum: ";
     total.display();
     return 0;
+
 }
