@@ -1,4 +1,4 @@
-// 12. Program for multiple inheritance
+//  Program for multiple inheritance
 #include <iostream>
 using namespace std;
 
@@ -37,4 +37,5 @@ int main() {
     d.input2();
     d.display();
     return 0;
+
 }
