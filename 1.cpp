@@ -17,7 +17,7 @@ public:
         cin>> model;
         cout << "Enter Year: ";
         cin >> year;
-        cin.ignore(); // Clear input buffer
+        cin.ignore(); 
     }
 
     // Function to display car details
