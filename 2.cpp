@@ -1,4 +1,4 @@
-// 2. Program for Book class
+//  Program for Book class
 #include <iostream>
 #include <string>
 using namespace std;
@@ -57,3 +57,4 @@ int main() {
     return 0;
 
 }
+
