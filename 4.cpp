@@ -1,4 +1,4 @@
-// 4. Program for areas using inline functions
+//  Program for areas using inline functions
 #include <iostream>
 using namespace std;
 
@@ -36,4 +36,5 @@ int main() {
     cin >> b >> h;
     cout << "Area of triangle: " << areaTriangle(b, h) << endl;
     return 0;
+
 }
