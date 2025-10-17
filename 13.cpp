@@ -1,10 +1,11 @@
-// 13. Program for virtual functions with polygon
+//  Program for virtual functions with polygon
 #include <iostream>
 using namespace std;
 
 class c_polygon {
 public:
-    virtual double area() = 0; // Pure virtual
+// Pure virtual
+    virtual double area() = 0; 
 };
 
 class c_rectangle : public c_polygon {
@@ -46,4 +47,5 @@ int main() {
     tri.input();
     cout << "Triangle area: " << tri.area() << endl;
     return 0;
+
 }
