@@ -1,4 +1,4 @@
-// 10. Program for single inheritance: Person -> Student
+//  Program for single inheritance: Person -> Student
 #include <iostream>
 #include <string>
 using namespace std;
@@ -43,4 +43,5 @@ int main() {
     s.inputStudent();
     s.showDetails();
     return 0;
+
 }
