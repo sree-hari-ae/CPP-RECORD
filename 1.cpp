@@ -12,9 +12,9 @@ public:
     // Function to read data members
     void readData() {
         cout << "Enter Brand: ";
-        getline(cin, brand);
+        cin>> brand;
         cout << "Enter Model: ";
-        getline(cin, model);
+        cin>> model;
         cout << "Enter Year: ";
         cin >> year;
         cin.ignore(); // Clear input buffer
