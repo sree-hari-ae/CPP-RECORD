@@ -1,4 +1,4 @@
-// 3. Program for Rectangle class
+//  Program for Rectangle class
 #include <iostream>
 using namespace std;
 
@@ -22,7 +22,7 @@ public:
         cout << "Length: " << length << ", Width: " << width << endl;
     }
 
-    ~Rectangle() {
+    Rectangle() {
         cout << "Rectangle object destroyed." << endl;
     }
 };
@@ -34,8 +34,13 @@ int main() {
     cout << "Enter width for parameterized rectangle: ";
     cin >> w;
 
-    Rectangle rect1; // Default constructor
-    Rectangle rect2(l, w); // Parameterized constructor
+    // Default constructor
+    
+    Rectangle rect1;
+    
+    // Parameterized constructor
+    
+    Rectangle rect2(l, w); 
 
     cout << "Default Rectangle:" << endl;
     rect1.display();
@@ -43,4 +48,5 @@ int main() {
     rect2.display();
 
     return 0; // Destructors called here
+
 }
