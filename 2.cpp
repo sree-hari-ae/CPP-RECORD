@@ -19,7 +19,7 @@ public:
         cin >> BookID;
         cout << "Enter Book Name: ";
         cin.ignore();
-        getline(cin, BookName);
+      cin>> Book Name;
         cout << "Enter Book Price: ";
         cin >> BookPrice;
     }
@@ -55,4 +55,5 @@ int main() {
     book3.displayDetails();
     book3.calculateTotal();
     return 0;
+
 }
