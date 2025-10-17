@@ -1,4 +1,4 @@
-// 6. Program for TelephoneBill class with friend function
+//  Program for TelephoneBill class with friend function
 #include <iostream>
 #include <string>
 using namespace std;
@@ -34,4 +34,5 @@ int main() {
     bill.input();
     cout << "Amount to be paid: Rs. " << computeBill(bill) << endl;
     return 0;
+
 }
