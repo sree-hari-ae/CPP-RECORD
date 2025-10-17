@@ -1,4 +1,4 @@
-// 11. Program for inheritance: BankAccount -> SavingsAccount, CurrentAccount
+//  Program for inheritance: BankAccount -> SavingsAccount, CurrentAccount
 #include <iostream>
 using namespace std;
 
@@ -50,7 +50,7 @@ public:
 
 class CurrentAccount : public BankAccount {
 private:
-    double min_balance = 1000; // Assume minimum
+    double min_balance = 1000; 
 
 public:
     void inputCurrent() {
@@ -59,7 +59,7 @@ public:
 
     void calculateServiceCharge() {
         if (balance < min_balance) {
-            double charge = 50; // Assume charge
+            double charge = 50; 
             cout << "Service charge: " << charge << endl;
             withdraw(charge);
         } else {
@@ -92,4 +92,5 @@ int main() {
     ca.withdraw(wd);
     ca.calculateServiceCharge();
     return 0;
+
 }
