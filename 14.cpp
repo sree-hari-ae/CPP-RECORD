@@ -1,4 +1,4 @@
-// 14. Program for multilevel inheritance with virtual base
+// Program for multilevel inheritance with virtual base
 #include <iostream>
 #include <string>
 using namespace std;
@@ -82,4 +82,5 @@ int main() {
     r.inputGrace();
     r.displayAll();
     return 0;
+
 }
